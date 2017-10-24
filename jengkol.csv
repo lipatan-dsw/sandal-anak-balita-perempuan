@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CLD 066 Murah,sandal-wedges-kasual-anak-perempuan-balita-cld-066,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,18 @@ Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CAY 010 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CAY 010<br/>Warna : COKLAT<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CLD 066 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CLD 066<br/>Warna : PUTIH KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +72,8 @@ Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/36-cay-010.jpg,Sandal Anak Laki-Laki - CAY 010,Rp 74.900,CAY 010,Baru
-Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PUTIH KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/168-cld-066.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-066-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-066-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-066-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-066-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-066-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CLD 066,Rp 76.400,Rp 89.900,Rp 13.500,CLD 066,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CLD 065 Murah,sandal-wedges-kasual-anak-perempuan-balita-cld-065,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +98,7 @@ Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +121,18 @@ Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 083 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 083<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CLD 065 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CLD 065<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +146,8 @@ Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 37, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/37-ctu-083.jpg,Sandal Anak Laki-Laki - CTU 083,Rp 76.400,CTU 083,Baru
-Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/169-cld-065.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-065-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-065-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-065-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-065-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-065-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CLD 065,Rp 76.400,Rp 89.900,Rp 13.500,CLD 065,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CLD 064 Murah,sandal-wedges-kasual-anak-perempuan-balita-cld-064,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +172,7 @@ Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +195,18 @@ Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 087 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 087<br/>Warna : COKLAT<br/>Bahan : Sintetis<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CLD 064 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CLD 064<br/>Warna : ORANGE<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +220,8 @@ Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 37, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/38-ctu-087.jpg,Sandal Anak Laki-Laki - CTU 087,Rp 78.900,CTU 087,Baru
-Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna ORANGE",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/170-cld-064.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-064-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-064-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-064-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-064-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cld-064-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CLD 064,Rp 76.400,Rp 89.900,Rp 13.500,CLD 064,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CDK 002 Murah,sandal-flat-kasual-anak-perempuan-balita-cdk-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +246,7 @@ Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +269,18 @@ Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CHM 039 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CHM 039<br/>Warna : BIRU NAVY<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CDK 002 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SILKI.<br/>Kode : CDK 002<br/>Warna : PINK<br/>Bahan : SILKI<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +294,8 @@ Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/39-chm-039.jpg,Sandal Anak Laki-Laki - CHM 039,Rp 80.900,CHM 039,Baru
-Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SILKI, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/171-cdk-002.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-002-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-002-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-002-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-002-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-002-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CDK 002,Rp 56.400,Rp 65.900,Rp 9.500,CDK 002,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CKK 063 Murah,sandal-flat-kasual-anak-perempuan-balita-ckk-063,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +320,7 @@ Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +343,18 @@ Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CHM 037 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CHM 037<br/>Warna : HITAM MERAH<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CKK 063 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CKK 063<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,8 +368,8 @@ Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna HITAM MERAH",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/40-chm-037.jpg,Sandal Anak Laki-Laki - CHM 037,Rp 80.900,CHM 037,Baru
-Jual Sandal Anak Laki-Laki - CAY 009 Murah,sandal-anak-laki-laki-cay-009,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/172-ckk-063.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-063-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-063-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-063-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-063-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-063-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CKK 063,Rp 63.900,Rp 74.900,Rp 11.000,CKK 063,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CHS 004 Murah,sandal-flat-kasual-anak-perempuan-balita-chs-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -339,6 +394,7 @@ Jual Sandal Anak Laki-Laki - CAY 009 Murah,sandal-anak-laki-laki-cay-009,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -361,8 +417,18 @@ Jual Sandal Anak Laki-Laki - CAY 009 Murah,sandal-anak-laki-laki-cay-009,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CAY 009 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CAY 009<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CHS 004 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CHS 004<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -376,8 +442,8 @@ Jual Sandal Anak Laki-Laki - CAY 009 Murah,sandal-anak-laki-laki-cay-009,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/41-cay-009.jpg,Sandal Anak Laki-Laki - CAY 009,Rp 74.900,CAY 009,Baru
-Jual Sandal Anak Laki-Laki - CHM 035 Murah,sandal-anak-laki-laki-chm-035,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/173-chs-004.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chs-004-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chs-004-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chs-004-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chs-004-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chs-004-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CHS 004,Rp 82.400,Rp 96.900,Rp 14.500,CHS 004,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CRA 005 Murah,sandal-flat-kasual-anak-perempuan-balita-cra-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -402,6 +468,7 @@ Jual Sandal Anak Laki-Laki - CHM 035 Murah,sandal-anak-laki-laki-chm-035,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -424,8 +491,18 @@ Jual Sandal Anak Laki-Laki - CHM 035 Murah,sandal-anak-laki-laki-chm-035,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CHM 035 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CHM 035<br/>Warna : TAN<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CRA 005 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CRA 005<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -439,8 +516,8 @@ Jual Sandal Anak Laki-Laki - CHM 035 Murah,sandal-anak-laki-laki-chm-035,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna TAN",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/42-chm-035.jpg,Sandal Anak Laki-Laki - CHM 035,Rp 79.400,CHM 035,Baru
-Jual Sandal Anak Laki-Laki - CRN 323 Murah,sandal-anak-laki-laki-crn-323,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna TAN",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/174-cra-005.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cra-005-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cra-005-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cra-005-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cra-005-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cra-005-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CRA 005,Rp 85.900,Rp 100.900,Rp 15.000,CRA 005,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CDK 001 Murah,sandal-wedges-kasual-anak-perempuan-balita-cdk-001,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -465,6 +542,7 @@ Jual Sandal Anak Laki-Laki - CRN 323 Murah,sandal-anak-laki-laki-crn-323,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -487,8 +565,18 @@ Jual Sandal Anak Laki-Laki - CRN 323 Murah,sandal-anak-laki-laki-crn-323,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CRN 323 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CRN 323<br/>Warna : BIRU<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CDK 001 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CDK 001<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +590,8 @@ Jual Sandal Anak Laki-Laki - CRN 323 Murah,sandal-anak-laki-laki-crn-323,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/80-crn-323.jpg,Sandal Anak Laki-Laki - CRN 323,Rp 82.400,CRN 323,Baru
-Jual Sandal Anak Laki-Laki - CTU 090 Murah,sandal-anak-laki-laki-ctu-090,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/175-cdk-001.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-001-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-001-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-001-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-001-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-001-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CDK 001,Rp 72.400,Rp 84.900,Rp 12.500,CDK 001,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CDK 003 Murah,sandal-wedges-kasual-anak-perempuan-balita-cdk-003,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,6 +616,7 @@ Jual Sandal Anak Laki-Laki - CTU 090 Murah,sandal-anak-laki-laki-ctu-090,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -550,8 +639,18 @@ Jual Sandal Anak Laki-Laki - CTU 090 Murah,sandal-anak-laki-laki-ctu-090,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 090 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 090<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CDK 003 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CDK 003<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -565,8 +664,8 @@ Jual Sandal Anak Laki-Laki - CTU 090 Murah,sandal-anak-laki-laki-ctu-090,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/81-ctu-090.jpg,Sandal Anak Laki-Laki - CTU 090,Rp 74.900,CTU 090,Baru
-Jual Sandal Anak Laki-Laki - CAB 062 Murah,sandal-anak-laki-laki-cab-062,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/176-cdk-003.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-003-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-003-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-003-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-003-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cdk-003-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CDK 003,Rp 72.400,Rp 84.900,Rp 12.500,CDK 003,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CAB 056 Murah,sandal-wedges-kasual-anak-perempuan-balita-cab-056,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -591,6 +690,7 @@ Jual Sandal Anak Laki-Laki - CAB 062 Murah,sandal-anak-laki-laki-cab-062,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -613,8 +713,18 @@ Jual Sandal Anak Laki-Laki - CAB 062 Murah,sandal-anak-laki-laki-cab-062,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CAB 062 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CAB 062<br/>Warna : ABU ABU<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CAB 056 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CAB 056<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -628,8 +738,8 @@ Jual Sandal Anak Laki-Laki - CAB 062 Murah,sandal-anak-laki-laki-cab-062,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/82-cab-062.jpg,Sandal Anak Laki-Laki - CAB 062,Rp 86.900,CAB 062,Baru
-Jual Sandal Anak Laki-Laki - CRN 205 Murah,sandal-anak-laki-laki-crn-205,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/177-cab-056.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-056-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-056-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-056-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-056-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-056-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CAB 056,Rp 74.900,Rp 87.900,Rp 13.000,CAB 056,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CAB 204 Murah,sandal-wedges-kasual-anak-perempuan-balita-cab-204,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -654,6 +764,7 @@ Jual Sandal Anak Laki-Laki - CRN 205 Murah,sandal-anak-laki-laki-crn-205,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -676,8 +787,18 @@ Jual Sandal Anak Laki-Laki - CRN 205 Murah,sandal-anak-laki-laki-crn-205,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CRN 205 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CRN 205<br/>Warna : HITAM<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CAB 204 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CAB 204<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -691,8 +812,8 @@ Jual Sandal Anak Laki-Laki - CRN 205 Murah,sandal-anak-laki-laki-crn-205,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/83-crn-205.jpg,Sandal Anak Laki-Laki - CRN 205,Rp 89.400,CRN 205,Baru
-Jual Sandal Anak Laki-Laki - CTU 089 Murah,sandal-anak-laki-laki-ctu-089,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/178-cab-204.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-204-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-204-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-204-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-204-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-204-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CAB 204,Rp 82.400,Rp 96.900,Rp 14.500,CAB 204,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CAB 206 Murah,sandal-wedges-kasual-anak-perempuan-balita-cab-206,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -717,6 +838,7 @@ Jual Sandal Anak Laki-Laki - CTU 089 Murah,sandal-anak-laki-laki-ctu-089,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -739,8 +861,18 @@ Jual Sandal Anak Laki-Laki - CTU 089 Murah,sandal-anak-laki-laki-ctu-089,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 089 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 089<br/>Warna : BIRU KOMBINASI<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CAB 206 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CAB 206<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -754,8 +886,8 @@ Jual Sandal Anak Laki-Laki - CTU 089 Murah,sandal-anak-laki-laki-ctu-089,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/84-ctu-089.jpg,Sandal Anak Laki-Laki - CTU 089,Rp 74.900,CTU 089,Baru
-Jual Sandal Anak Laki-Laki - CRN 325 Murah,sandal-anak-laki-laki-crn-325,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/179-cab-206.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-206-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-206-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-206-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-206-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-206-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CAB 206,Rp 82.400,Rp 96.900,Rp 14.500,CAB 206,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CAB 207 Murah,sandal-wedges-kasual-anak-perempuan-balita-cab-207,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -780,6 +912,7 @@ Jual Sandal Anak Laki-Laki - CRN 325 Murah,sandal-anak-laki-laki-crn-325,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -802,8 +935,18 @@ Jual Sandal Anak Laki-Laki - CRN 325 Murah,sandal-anak-laki-laki-crn-325,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CRN 325 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CRN 325<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CAB 207 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CAB 207<br/>Warna : BIRU<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -817,8 +960,8 @@ Jual Sandal Anak Laki-Laki - CRN 325 Murah,sandal-anak-laki-laki-crn-325,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/85-crn-325.jpg,Sandal Anak Laki-Laki - CRN 325,Rp 82.400,CRN 325,Baru
-Jual Sandal Anak Laki-Laki - CTU 084 Murah,sandal-anak-laki-laki-ctu-084,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/180-cab-207.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-207-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-207-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-207-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-207-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-207-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CAB 207,Rp 82.400,Rp 96.900,Rp 14.500,CAB 207,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CAB 205 Murah,sandal-wedges-kasual-anak-perempuan-balita-cab-205,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -843,6 +986,7 @@ Jual Sandal Anak Laki-Laki - CTU 084 Murah,sandal-anak-laki-laki-ctu-084,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -865,8 +1009,18 @@ Jual Sandal Anak Laki-Laki - CTU 084 Murah,sandal-anak-laki-laki-ctu-084,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 084 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 084<br/>Warna : COKLAT<br/>Bahan : Sintetis<br/>Ukuran : 28 - 32<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CAB 205 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CAB 205<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -880,4 +1034,596 @@ Jual Sandal Anak Laki-Laki - CTU 084 Murah,sandal-anak-laki-laki-ctu-084,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 28 - 32, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/86-ctu-084.jpg,Sandal Anak Laki-Laki - CTU 084,Rp 72.900,CTU 084,Baru
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/181-cab-205.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-205-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-205-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-205-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-205-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-205-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CAB 205,Rp 82.400,Rp 96.900,Rp 14.500,CAB 205,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CKK 061 Murah,sandal-wedges-kasual-anak-perempuan-balita-ckk-061,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CKK 061 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CKK 061<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/182-ckk-061.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-061-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-061-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-061-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-061-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-061-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CKK 061,Rp 83.900,Rp 98.900,Rp 15.000,CKK 061,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CKK 062 Murah,sandal-wedges-kasual-anak-perempuan-balita-ckk-062,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CKK 062 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CKK 062<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/183-ckk-062.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-062-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-062-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-062-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-062-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ckk-062-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CKK 062,Rp 83.900,Rp 98.900,Rp 15.000,CKK 062,Baru
+Jual Sandal Wedges Kasual Anak Perempuan & Balita - CAB 009 Murah,sandal-wedges-kasual-anak-perempuan-balita-cab-009,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Wedges Kasual Anak Perempuan & Balita - CAB 009 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CAB 009<br/>Warna : PINK KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 26 - 30<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 26 - 30, Warna PINK KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/184-cab-009.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-009-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-009-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-009-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-009-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cab-009-e.jpg,Sandal Wedges Kasual Anak Perempuan & Balita - CAB 009,Rp 73.900,Rp 86.900,Rp 13.000,CAB 009,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CYL 010 Murah,sandal-flat-kasual-anak-perempuan-balita-cyl-010,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CYL 010 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CYL 010<br/>Warna : COKLAT KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 22 - 26<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 22 - 26, Warna COKLAT KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/205-cyl-010.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-010-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-010-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-010-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-010-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-010-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CYL 010,Rp 73.900,Rp 86.900,Rp 13.000,CYL 010,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CYL 103 Murah,sandal-flat-kasual-anak-perempuan-balita-cyl-103,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CYL 103 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CYL 103<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 22 - 26<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 22 - 26, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/206-cyl-103.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-103-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-103-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-103-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-103-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-103-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CYL 103,Rp 85.400,Rp 99.900,Rp 14.500,CYL 103,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CTT 012 Murah,sandal-flat-kasual-anak-perempuan-balita-ctt-012,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CTT 012 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CTT 012<br/>Warna : KUNING<br/>Bahan : SINTETIS<br/>Ukuran : 21 - 26<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 21 - 26, Warna KUNING",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/207-ctt-012.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctt-012-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctt-012-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctt-012-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctt-012-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctt-012-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CTT 012,Rp 85.400,Rp 99.900,Rp 14.500,CTT 012,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CTS 207 Murah,sandal-flat-kasual-anak-perempuan-balita-cts-207,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CTS 207 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CTS 207<br/>Warna : BIRU PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 22 - 26<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 22 - 26, Warna BIRU PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/208-cts-207.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cts-207-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cts-207-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cts-207-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cts-207-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cts-207-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CTS 207,Rp 70.900,Rp 82.900,Rp 12.000,CTS 207,Baru
+Jual Sandal Flat Kasual Anak Perempuan & Balita - CYL 104 Murah,sandal-flat-kasual-anak-perempuan-balita-cyl-104,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
+          <script type=""text/javascript"">
+          <!--
+          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
+          //-->
+          </script>
+          </a>
+         </label>
+        </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include buy.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Sandal Flat Kasual Anak Perempuan & Balita - CYL 104 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Balita Perempuan ini terbuat dari bahan SINTETIS.<br/>Kode : CYL 104<br/>Warna : BIRU NAVY<br/>Bahan : SINTETIS<br/>Ukuran : 22 - 26<br/>Berat : 0.6 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include share.html %}
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-balita-perempuan,catenzo-junior,sandal-anak-balita-perempuan,catenzo-junior,"Sandal Anak Balita Perempuan Bahan SINTETIS, Ukuran 22 - 26, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/209-cyl-104.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-104-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-104-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-104-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-104-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/cyl-104-e.jpg,Sandal Flat Kasual Anak Perempuan & Balita - CYL 104,Rp 85.400,Rp 99.900,Rp 14.500,CYL 104,Baru
